@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "C:\\Users\\HP\\Documents\\Master\\M2\\Systems Distribues\\TP\\PROJET\\mcp-chatbot-spring-python"
+      ]
+    }
+  }
+}

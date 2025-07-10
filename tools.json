@@ -1,0 +1,17 @@
+{
+  "tools": [
+    {
+      "name": "getStockByCompany",
+      "description": "Get stock for a given company",
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "companyName": {
+            "type": "string"
+          }
+        },
+        "required": ["companyName"]
+      }
+    }
+  ]
+}
