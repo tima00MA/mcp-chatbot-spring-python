@@ -119,14 +119,14 @@ Ces objets sont automatiquement **serialisés en JSON** lors des réponses API o
 * L’agent (par exemple un chatbot) peut appeler `getAllCompanies()` sans connaître le code Java
 ![étape 1: get](image/1get.png)
 
-![étape 2: get result](image/2 get result.png)
-![étape 3: post initialisation](image/3 post initialisation.png)
-![étape 4: result in post](image/4 result in post.png)
-![étape 5: get result](image/5 get result.png)
-![étape 6: post With notification](image/6 post With notif.png)
-![étape 7: post demende la list des tools ressources prompt](image/7 post demende la list des tools ressources prompt.png)
-![étape 8: post](image/8 post.png)
-![étape 9: result](image/8 result.png)
+![étape 2: get result](image/2_get_result.png)
+![étape 3: post initialisation](image/3_post_initialisation.png)
+![étape 4: result in post](image/4_result_in_post.png)
+![étape 5: get result](image/5_get_result.png)
+![étape 6: post With notification](image/6_post_With_notif.png)
+![étape 7: post demende la list des tools ressources prompt](image/7_post_demende_la_list_des_tools_ressources_prompt.png)
+![étape 8: post](image/8_post.png)
+![étape 9: result](image/8_result.png)
 
 
 
@@ -184,9 +184,9 @@ La connexion au serveur se fait via un protocole appelé **MCP (Model Context Pr
 Cette configuration permet de lire les outils depuis le serveur local en utilisant un serveur MCP Filesystem.
 
 ---
-![query result](image/10 query result.png)
-![swagger query](image/11 swagger query.png)
-![12 resul swagger](image/12 resul swagger.png)
+**![query result](image/10_query_result.png)
+![swagger query](image/11_swagger_query.png)
+![12 resul swagger](image/12_resul_swagger.png)**
 
 
 
