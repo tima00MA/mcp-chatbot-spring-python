@@ -117,6 +117,19 @@ Ces objets sont automatiquement **serialisés en JSON** lors des réponses API o
 * Les annotations `@Tool` rendent les méthodes **découvrables dynamiquement**
 * L'API peut être appelée par des outils d'IA (comme des LLMs, LangChain, ou un client Python)
 * L’agent (par exemple un chatbot) peut appeler `getAllCompanies()` sans connaître le code Java
+![étape 1: get](image/1get.png)
+
+![étape 2: get result](image/2 get result.png)
+![étape 3: post initialisation](image/3 post initialisation.png)
+![étape 4: result in post](image/4 result in post.png)
+![étape 5: get result](image/5 get result.png)
+![étape 6: post With notification](image/6 post With notif.png)
+![étape 7: post demende la list des tools ressources prompt](image/7 post demende la list des tools ressources prompt.png)
+![étape 8: post](image/8 post.png)
+![étape 9: result](image/8 result.png)
+
+
+
 
 ---
 
@@ -171,6 +184,11 @@ La connexion au serveur se fait via un protocole appelé **MCP (Model Context Pr
 Cette configuration permet de lire les outils depuis le serveur local en utilisant un serveur MCP Filesystem.
 
 ---
+![query result](image/10 query result.png)
+![swagger query](image/11 swagger query.png)
+![12 resul swagger](image/12 resul swagger.png)
+
+
 
 ###  Classe `AIAgent.java` – Construction de l’agent intelligent
 
