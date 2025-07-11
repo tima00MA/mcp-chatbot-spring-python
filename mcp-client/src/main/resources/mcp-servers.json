@@ -8,5 +8,17 @@
         "C:\\Users\\HP\\Documents\\Master\\M2\\Systems Distribues\\TP\\PROJET\\mcp-chatbot-spring-python"
       ]
     }
+  },
+
+  "Python_MCP_Server": {
+    "command": "uv",
+    "args": [
+      "run",
+      "--with",
+      "mcp[cli]",
+      "mcp",
+      "run",
+      "C:\\Users\\HP\\Documents\\Master\\M2\\Systems Distribues\\TP\\PROJET\\mcp-chatbot-spring-python\\python-mcp-server\\server.py"
+    ]
   }
 }

@@ -14,6 +14,8 @@ public class AIAgent {
         this.chatClient = chatClient
                 .defaultSystem("Answer the user question using provided tools")
                 .defaultToolCallbacks(toolCallbackProvider)
+                .defaultAdvisors(MessageChatMemoryAdvisor
+                        .builder(MessageWindowChatMemory.builder().build()).build())
                 .build();
     }
     public String askLLM(String query) {
